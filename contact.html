@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Bloom & Grow. Contact us for gardening services, flower orders, or any questions about our products.">
+    <title>Contact Us - Bloom & Grow</title>
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/pages.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="../index.html" class="logo">
+                        <span class="logo-icon">🌸</span>
+                        <span class="logo-text">Bloom & Grow</span>
+                    </a>
+                    <button class="mobile-toggle" id="mobileToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <p>We'd love to hear from you. Let's create something beautiful together!</p>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="content-section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <h2>Send Us a Message</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="services">Gardening Services</option>
+                                    <option value="flowers">Flower Orders</option>
+                                    <option value="maintenance">Garden Maintenance</option>
+                                    <option value="consultation">Consultation Request</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" required placeholder="Tell us about your project or inquiry..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info-box">
+                        <h3>Contact Information</h3>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">📍</div>
+                            <div class="info-content">
+                                <h4>Visit Us</h4>
+                                <p>123 Garden Street<br>Green City, GC 12345</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">📞</div>
+                            <div class="info-content">
+                                <h4>Call Us</h4>
+                                <p>Main: (555) 123-4567<br>Mobile: (555) 987-6543</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">✉️</div>
+                            <div class="info-content">
+                                <h4>Email Us</h4>
+                                <p>General: hello@bloomandgrow.com<br>Orders: orders@bloomandgrow.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">🕐</div>
+                            <div class="info-content">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Saturday: 9:00 AM - 7:00 PM<br>Sunday: 10:00 AM - 5:00 PM</p>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 2rem;">
+                            <h4 style="margin-bottom: 1rem; color: var(--primary-color);">Follow Us</h4>
+                            <div class="social-links">
+                                <a href="#" aria-label="Facebook" style="font-size: 2rem;">📘</a>
+                                <a href="#" aria-label="Instagram" style="font-size: 2rem;">📷</a>
+                                <a href="#" aria-label="Twitter" style="font-size: 2rem;">🐦</a>
+                                <a href="#" aria-label="Pinterest" style="font-size: 2rem;">📌</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section (Placeholder) -->
+        <section class="content-section" style="padding-top: 0;">
+            <div class="container">
+                <h2 class="section-title">Find Us Here</h2>
+                <div style="height: 400px; background: linear-gradient(135deg, var(--light-green) 0%, var(--primary-color) 100%); border-radius: 15px; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+                    🗺️
+                    <div style="position: absolute; font-size: 1rem; margin-top: 100px;">Map Integration Available</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Quick Links -->
+        <section class="mission-section">
+            <div class="container">
+                <h2 class="section-title">Quick Answers</h2>
+                <p class="section-subtitle">Looking for information? Check out our frequently asked questions</p>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="faq.html" class="btn btn-primary">View FAQ</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>About Bloom & Grow</h4>
+                    <p>Your trusted partner for fresh flowers, quality plants, and expert gardening services since 2015.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Pinterest">📌</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="delivery.html">Delivery Info</a></li>
+                        <li><a href="../privacy.html">Privacy Policy</a></li>
+                        <li><a href="../terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li>📍 123 Garden Street, Green City</li>
+                        <li>📞 (555) 123-4567</li>
+                        <li>✉️ hello@bloomandgrow.com</li>
+                        <li>🕐 Mon-Sat: 9AM-7PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bloom & Grow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/contact.js"></script>
+</body>
+</html>

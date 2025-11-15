@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our collection of fresh flowers, indoor plants, outdoor plants, and gardening accessories at Bloom & Grow.">
+    <title>Our Products - Bloom & Grow</title>
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/pages.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="../index.html" class="logo">
+                        <span class="logo-icon">🌸</span>
+                        <span class="logo-text">Bloom & Grow</span>
+                    </a>
+                    <button class="mobile-toggle" id="mobileToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html" class="active">Products</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Our Products</h1>
+                <p>Quality flowers, plants, and garden essentials</p>
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="filter-section">
+            <div class="container">
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-category="all">All Products</button>
+                    <button class="filter-btn" data-category="flowers">Fresh Flowers</button>
+                    <button class="filter-btn" data-category="indoor">Indoor Plants</button>
+                    <button class="filter-btn" data-category="outdoor">Outdoor Plants</button>
+                    <button class="filter-btn" data-category="accessories">Accessories</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="content-section">
+            <div class="container">
+                <div class="products-grid" id="productsGrid">
+                    <!-- Fresh Flowers -->
+                    <div class="product-card" data-category="flowers">
+                        <div class="product-image">
+                            <span class="product-badge">Bestseller</span>
+                            <div class="product-icon">🌹</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Red Rose Bouquet</h3>
+                            <p class="product-description">Dozen premium red roses, perfect for any romantic occasion</p>
+                            <p class="product-price">$45.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="flowers">
+                        <div class="product-image">
+                            <span class="product-badge new">New</span>
+                            <div class="product-icon">🌷</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Tulip Mix Collection</h3>
+                            <p class="product-description">Vibrant assorted tulips in seasonal colors</p>
+                            <p class="product-price">$38.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="flowers">
+                        <div class="product-image">
+                            <div class="product-icon">🌻</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Sunflower Bundle</h3>
+                            <p class="product-description">Bright and cheerful sunflowers to brighten any space</p>
+                            <p class="product-price">$32.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="flowers">
+                        <div class="product-image">
+                            <div class="product-icon">💐</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Mixed Seasonal Bouquet</h3>
+                            <p class="product-description">Designer's choice seasonal flower arrangement</p>
+                            <p class="product-price">$55.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="flowers">
+                        <div class="product-image">
+                            <div class="product-icon">🌺</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Tropical Arrangement</h3>
+                            <p class="product-description">Exotic tropical flowers including orchids and birds of paradise</p>
+                            <p class="product-price">$68.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="flowers">
+                        <div class="product-image">
+                            <div class="product-icon">🏵️</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Carnation Collection</h3>
+                            <p class="product-description">Long-lasting carnations in assorted colors</p>
+                            <p class="product-price">$28.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- Indoor Plants -->
+                    <div class="product-card" data-category="indoor">
+                        <div class="product-image">
+                            <span class="product-badge">Popular</span>
+                            <div class="product-icon">🌿</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Monstera Deliciosa</h3>
+                            <p class="product-description">Beautiful Swiss cheese plant, easy to care for</p>
+                            <p class="product-price">$32.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="indoor">
+                        <div class="product-image">
+                            <div class="product-icon">🪴</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Snake Plant</h3>
+                            <p class="product-description">Low-maintenance air purifying plant</p>
+                            <p class="product-price">$24.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="indoor">
+                        <div class="product-image">
+                            <div class="product-icon">🌱</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Pothos Ivy</h3>
+                            <p class="product-description">Trailing vine perfect for hanging baskets</p>
+                            <p class="product-price">$18.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="indoor">
+                        <div class="product-image">
+                            <span class="product-badge new">New</span>
+                            <div class="product-icon">🌵</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Succulent Garden Set</h3>
+                            <p class="product-description">Assorted succulents in decorative pot</p>
+                            <p class="product-price">$28.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="indoor">
+                        <div class="product-image">
+                            <div class="product-icon">🎋</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Lucky Bamboo</h3>
+                            <p class="product-description">Feng shui plant for good fortune</p>
+                            <p class="product-price">$15.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="indoor">
+                        <div class="product-image">
+                            <div class="product-icon">🍀</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Peace Lily</h3>
+                            <p class="product-description">Elegant white blooms and glossy leaves</p>
+                            <p class="product-price">$29.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- Outdoor Plants -->
+                    <div class="product-card" data-category="outdoor">
+                        <div class="product-image">
+                            <div class="product-icon">🌳</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Fiddle Leaf Fig Tree</h3>
+                            <p class="product-description">Statement tree for indoor or covered outdoor spaces</p>
+                            <p class="product-price">$89.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="outdoor">
+                        <div class="product-image">
+                            <div class="product-icon">🌲</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Evergreen Shrub</h3>
+                            <p class="product-description">Hardy shrub perfect for landscaping</p>
+                            <p class="product-price">$42.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="outdoor">
+                        <div class="product-image">
+                            <span class="product-badge">Sale</span>
+                            <div class="product-icon">🌾</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Ornamental Grass</h3>
+                            <p class="product-description">Low-maintenance decorative grass</p>
+                            <p class="product-price">$19.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="outdoor">
+                        <div class="product-image">
+                            <div class="product-icon">🌼</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Perennial Flower Mix</h3>
+                            <p class="product-description">Assorted perennials that bloom year after year</p>
+                            <p class="product-price">$36.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="outdoor">
+                        <div class="product-image">
+                            <div class="product-icon">🌴</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Tropical Palm</h3>
+                            <p class="product-description">Create a paradise vibe in your outdoor space</p>
+                            <p class="product-price">$125.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="outdoor">
+                        <div class="product-image">
+                            <div class="product-icon">🥀</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Climbing Rose Bush</h3>
+                            <p class="product-description">Beautiful climbing roses for fences and trellises</p>
+                            <p class="product-price">$48.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <!-- Accessories -->
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <div class="product-icon">🪴</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Ceramic Planter Set</h3>
+                            <p class="product-description">Set of 3 modern planters in various sizes</p>
+                            <p class="product-price">$45.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <div class="product-icon">💧</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Garden Watering Can</h3>
+                            <p class="product-description">Vintage-style metal watering can</p>
+                            <p class="product-price">$24.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <div class="product-icon">🌱</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Organic Fertilizer</h3>
+                            <p class="product-description">Premium plant food for healthy growth</p>
+                            <p class="product-price">$16.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <div class="product-icon">🧤</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Gardening Tool Set</h3>
+                            <p class="product-description">Essential tools for every gardener</p>
+                            <p class="product-price">$38.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <span class="product-badge">Popular</span>
+                            <div class="product-icon">🏺</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Decorative Vase</h3>
+                            <p class="product-description">Handcrafted glass vase for flower arrangements</p>
+                            <p class="product-price">$32.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <div class="product-icon">💡</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Grow Light</h3>
+                            <p class="product-description">LED grow light for indoor plants</p>
+                            <p class="product-price">$54.99</p>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Need Help Choosing?</h2>
+                    <p>Our plant experts are here to help you find the perfect plants for your space</p>
+                    <a href="contact.html" class="btn btn-light">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>About Bloom & Grow</h4>
+                    <p>Your trusted partner for fresh flowers, quality plants, and expert gardening services since 2015.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Pinterest">📌</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="delivery.html">Delivery Info</a></li>
+                        <li><a href="../privacy.html">Privacy Policy</a></li>
+                        <li><a href="../terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li>📍 123 Garden Street, Green City</li>
+                        <li>📞 (555) 123-4567</li>
+                        <li>✉️ hello@bloomandgrow.com</li>
+                        <li>🕐 Mon-Sat: 9AM-7PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bloom & Grow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/products.js"></script>
+</body>
+</html>

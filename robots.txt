@@ -1,0 +1,24 @@
+# robots.txt for Bloom & Grow
+# This file tells search engines which pages to crawl
+
+User-agent: *
+Disallow: /assets/
+Disallow: /temp/
+Disallow: /*.pdf$
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.bloomandgrow.com/sitemap.xml
+
+# Popular search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay (optional - adjust as needed)
+Crawl-delay: 10

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our gallery of beautiful gardens, flower arrangements, and landscaping projects by Bloom & Grow.">
+    <title>Gallery - Bloom & Grow</title>
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/pages.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="../index.html" class="logo">
+                        <span class="logo-icon">🌸</span>
+                        <span class="logo-text">Bloom & Grow</span>
+                    </a>
+                    <button class="mobile-toggle" id="mobileToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="gallery.html" class="active">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Our Gallery</h1>
+                <p>Explore our beautiful gardens, arrangements, and landscaping projects</p>
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="filter-section">
+            <div class="container">
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-category="all">All Photos</button>
+                    <button class="filter-btn" data-category="arrangements">Floral Arrangements</button>
+                    <button class="filter-btn" data-category="gardens">Garden Designs</button>
+                    <button class="filter-btn" data-category="weddings">Weddings</button>
+                    <button class="filter-btn" data-category="plants">Plants</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Grid -->
+        <section class="content-section">
+            <div class="container">
+                <div class="gallery-grid" id="galleryGrid">
+                    <!-- Floral Arrangements -->
+                    <div class="gallery-item" data-category="arrangements">
+                        <div class="gallery-placeholder">🌹</div>
+                        <div class="gallery-overlay">
+                            <h3>Red Rose Elegance</h3>
+                            <p>Premium rose bouquet</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="arrangements">
+                        <div class="gallery-placeholder">🌷</div>
+                        <div class="gallery-overlay">
+                            <h3>Spring Tulip Mix</h3>
+                            <p>Colorful tulip arrangement</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="arrangements">
+                        <div class="gallery-placeholder">💐</div>
+                        <div class="gallery-overlay">
+                            <h3>Wildflower Collection</h3>
+                            <p>Natural wildflower bouquet</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="arrangements">
+                        <div class="gallery-placeholder">🌺</div>
+                        <div class="gallery-overlay">
+                            <h3>Tropical Paradise</h3>
+                            <p>Exotic flower arrangement</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="arrangements">
+                        <div class="gallery-placeholder">🌻</div>
+                        <div class="gallery-overlay">
+                            <h3>Sunflower Sunshine</h3>
+                            <p>Bright sunflower display</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="arrangements">
+                        <div class="gallery-placeholder">🏵️</div>
+                        <div class="gallery-overlay">
+                            <h3>Elegant Centerpiece</h3>
+                            <p>Table arrangement</p>
+                        </div>
+                    </div>
+
+                    <!-- Garden Designs -->
+                    <div class="gallery-item" data-category="gardens">
+                        <div class="gallery-placeholder">🏡</div>
+                        <div class="gallery-overlay">
+                            <h3>Backyard Oasis</h3>
+                            <p>Complete landscape design</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="gardens">
+                        <div class="gallery-placeholder">🌳</div>
+                        <div class="gallery-overlay">
+                            <h3>Shade Garden</h3>
+                            <p>Lush shaded area design</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="gardens">
+                        <div class="gallery-placeholder">🌿</div>
+                        <div class="gallery-overlay">
+                            <h3>Modern Minimalist</h3>
+                            <p>Contemporary garden space</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="gardens">
+                        <div class="gallery-placeholder">🍃</div>
+                        <div class="gallery-overlay">
+                            <h3>Zen Garden</h3>
+                            <p>Peaceful meditation space</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="gardens">
+                        <div class="gallery-placeholder">🌲</div>
+                        <div class="gallery-overlay">
+                            <h3>Evergreen Border</h3>
+                            <p>Year-round greenery</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="gardens">
+                        <div class="gallery-placeholder">🌾</div>
+                        <div class="gallery-overlay">
+                            <h3>Native Plant Garden</h3>
+                            <p>Eco-friendly landscaping</p>
+                        </div>
+                    </div>
+
+                    <!-- Wedding Arrangements -->
+                    <div class="gallery-item" data-category="weddings">
+                        <div class="gallery-placeholder">💍</div>
+                        <div class="gallery-overlay">
+                            <h3>Wedding Arch</h3>
+                            <p>Romantic ceremony backdrop</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="weddings">
+                        <div class="gallery-placeholder">💐</div>
+                        <div class="gallery-overlay">
+                            <h3>Bridal Bouquet</h3>
+                            <p>Classic white roses</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="weddings">
+                        <div class="gallery-placeholder">🎊</div>
+                        <div class="gallery-overlay">
+                            <h3>Reception Centerpiece</h3>
+                            <p>Elegant table flowers</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="weddings">
+                        <div class="gallery-placeholder">🌸</div>
+                        <div class="gallery-overlay">
+                            <h3>Ceremony Aisle</h3>
+                            <p>Petal-lined walkway</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="weddings">
+                        <div class="gallery-placeholder">🎀</div>
+                        <div class="gallery-overlay">
+                            <h3>Boutonniere Set</h3>
+                            <p>Groom & groomsmen flowers</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="weddings">
+                        <div class="gallery-placeholder">👰</div>
+                        <div class="gallery-overlay">
+                            <h3>Cascading Bouquet</h3>
+                            <p>Dramatic waterfall style</p>
+                        </div>
+                    </div>
+
+                    <!-- Plants -->
+                    <div class="gallery-item" data-category="plants">
+                        <div class="gallery-placeholder">🌱</div>
+                        <div class="gallery-overlay">
+                            <h3>Indoor Plant Display</h3>
+                            <p>Home greenery collection</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="plants">
+                        <div class="gallery-placeholder">🪴</div>
+                        <div class="gallery-overlay">
+                            <h3>Potted Plant Trio</h3>
+                            <p>Monstera, pothos, snake plant</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="plants">
+                        <div class="gallery-placeholder">🌵</div>
+                        <div class="gallery-overlay">
+                            <h3>Succulent Garden</h3>
+                            <p>Low-maintenance beauties</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="plants">
+                        <div class="gallery-placeholder">🎋</div>
+                        <div class="gallery-overlay">
+                            <h3>Bamboo Corner</h3>
+                            <p>Asian-inspired greenery</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="plants">
+                        <div class="gallery-placeholder">🌴</div>
+                        <div class="gallery-overlay">
+                            <h3>Palm Paradise</h3>
+                            <p>Tropical indoor palms</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="plants">
+                        <div class="gallery-placeholder">🍀</div>
+                        <div class="gallery-overlay">
+                            <h3>Hanging Plant Wall</h3>
+                            <p>Vertical garden display</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="text-center" style="margin-top: 3rem;">
+                    <button class="btn btn-primary" id="loadMoreBtn">Load More Photos</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div class="lightbox" id="lightbox">
+            <span class="lightbox-close" id="lightboxClose">&times;</span>
+            <div class="lightbox-content">
+                <button class="lightbox-nav lightbox-prev" id="lightboxPrev">❮</button>
+                <div class="lightbox-image" id="lightboxImage"></div>
+                <button class="lightbox-nav lightbox-next" id="lightboxNext">❯</button>
+            </div>
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1000+</div>
+                        <div class="stat-label">Arrangements Created</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Weddings Decorated</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5000+</div>
+                        <div class="stat-label">Happy Customers</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Want Us to Create Something Beautiful for You?</h2>
+                    <p>Let's bring your garden and floral dreams to life</p>
+                    <a href="contact.html" class="btn btn-light">Get Started</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>About Bloom & Grow</h4>
+                    <p>Your trusted partner for fresh flowers, quality plants, and expert gardening services since 2015.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Pinterest">📌</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="delivery.html">Delivery Info</a></li>
+                        <li><a href="../privacy.html">Privacy Policy</a></li>
+                        <li><a href="../terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li>📍 123 Garden Street, Green City</li>
+                        <li>📞 (555) 123-4567</li>
+                        <li>✉️ hello@bloomandgrow.com</li>
+                        <li>🕐 Mon-Sat: 9AM-7PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bloom & Grow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/gallery.js"></script>
+</body>
+</html>
